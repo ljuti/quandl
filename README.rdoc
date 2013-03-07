@@ -1,0 +1,27 @@
+= quandl
+
+* {Homepage}[https://rubygems.org/gems/quandl]
+* {Documentation}[http://rubydoc.info/gems/quandl/frames]
+* {Email}[mailto:lauri at kiskolabs.com]
+
+== Description
+
+TODO: Description
+
+== Features
+
+== Examples
+
+  require 'quandl'
+
+== Requirements
+
+== Install
+
+  $ gem install quandl
+
+== Copyright
+
+Copyright (c) 2013 Lauri Jutila
+
+See LICENSE.txt for details.
