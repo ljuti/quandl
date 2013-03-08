@@ -1,20 +1,24 @@
 = quandl
 
-* {Homepage}[https://rubygems.org/gems/quandl]
+* {Homepage}[https://github.com/ljuti/quandl]
 * {Documentation}[http://rubydoc.info/gems/quandl/frames]
-* {Email}[mailto:lauri at kiskolabs.com]
+* {Email}[mailto:ruby at laurijutila.com]
 
 == Description
 
-TODO: Description
+Ruby gem for Quandl.com API.
 
 == Features
 
+TODO
+
 == Examples
 
-  require 'quandl'
+TODO
 
 == Requirements
+
+TODO
 
 == Install
 
