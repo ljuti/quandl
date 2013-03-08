@@ -23,9 +23,6 @@ describe Quandl::Commodities::Gold do
       expect(gold.current_price).to be_instance_of(Hash)
       expect(gold.current_price[:date]).to eq(gold.data["to_date"])
       expect(gold.current_price.keys).to include(:date, :usd, :gbp, :eur)
-      # expect(gold.current_price).to be_instance_of(Array)
-      # expect(gold.current_price.first).to eq(gold.data["to_date"])
-      # puts gold.current_price
     end
 
     after do
