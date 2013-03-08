@@ -5,8 +5,8 @@ require File.expand_path('../lib/quandl/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.name          = "quandl"
   gem.version       = Quandl::VERSION
-  gem.summary       = %q{TODO: Summary}
-  gem.description   = %q{TODO: Description}
+  gem.summary       = %q{Ruby gem for Quandl.com API.}
+  gem.description   = %q{Ruby gem for Quandl.com API.}
   gem.license       = "MIT"
   gem.authors       = ["Lauri Jutila"]
   gem.email         = "ruby@laurijutila.com"

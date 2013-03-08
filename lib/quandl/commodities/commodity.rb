@@ -1,13 +1,6 @@
 module Quandl
   module Commodities
     class Commodity < Quandl::Dataset
-      def initialize(*args)
-        options     = args.extract_options!
-        @dataset_id = options[:id]
-        @format     = :json
-        @data       = get_data
-      end
-
       def current_price
         @current_price ||= get_current_price
       end
