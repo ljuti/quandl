@@ -19,9 +19,22 @@ describe Quandl::Commodities::Commodity do
       VCR.insert_cassette "dataset", record: :new_episodes
     end
 
-    describe ".price" do
+    describe "#price" do
       it "returns the current price if called without arguments" do
         expect(commodity.price).to eq(commodity.current_price)
+      end
+
+      it "returns the price for specified date" do
+        expect(commodity.price(date: "2013-03-01")).to be_instance_of(Hash)
+        expect(commodity.price(date: "2013-03-01")[:date]).to eq("2013-03-01")
+      end
+
+      it "returns the price in specified currency" do
+        expect(commodity.price(currency: :usd)).to eq(commodity.current_price[:usd])
+      end
+
+      it "returns the price for specified date in specified currency" do
+        expect(commodity.price(date: "2013-03-01", currency: :eur)).to eq(1218.991)
       end
     end
 

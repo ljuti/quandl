@@ -1,4 +1,5 @@
-require "active_support"
+require "quandl/ext/array"
+require "quandl/ext/hash"
 
 require "quandl/version"
 require "quandl/dataset"

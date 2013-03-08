@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     quandl (0.1.0)
-      activesupport
+      activesupport (~> 3.2)
       httparty
 
 GEM
